@@ -6,10 +6,13 @@
     <title>Spa | Shangri-La Resort</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header-container">
-        <img id="logo" src="images/logo.svg" alt="Shangri-La Logo">
+        <a href = "home.html"><img id="logo" src="images/logo.svg" alt="Shangri-La Logo"></a>
         <p id="weather"></p>
         <nav id="menu">
             <ul>
@@ -117,19 +120,19 @@
                     <th>Description</th>
                     <th>Price</th>
                 </tr>
-                <tr>
+                <tr class="even-row">
                     <td span id="bold">Sea Salt Body Scrub</td>
                     <td>45 minutes</td>
                     <td>Exfoliating treatment to remove dead skin cells and reveal smoother skin.</td>
                     <td>$150</td>
                 </tr>
-                <tr class="even-row">
+                <tr>
                     <td span id="bold">Tropical Body Wrap</td>
                     <td>60 minutes</td>
                     <td>Hydrating and nourishing body wrap using natural ingredients.</td>
                     <td>$200</td>
                 </tr>
-                <tr>
+                <tr class="even-row">
                     <td span id="bold">Sun Relief Wrap</td>
                     <td>60 minutes</td>
                     <td>Soothing treatment to cool and hydrate skin after sun exposure.</td>
@@ -177,6 +180,6 @@
     <footer>
         <small>&copy; Shangri-La Resort</small>
     </footer>
-    <script src="weather.js"></script>
+    <script src="shangrila.js"></script>
 </body>
 </html>

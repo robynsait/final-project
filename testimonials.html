@@ -6,10 +6,13 @@
     <title>Testimonials | Shangri-La Resort</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header-container">
-        <img id="logo" src="images/logo.svg" alt="Shangri-La Logo">
+        <a href = "home.html"><img id="logo" src="images/logo.svg" alt="Shangri-La Logo"></a>
         <p id="weather"></p>
         <nav id="menu">
             <ul>
@@ -23,29 +26,29 @@
         </nav>
     </header>
     <main>
-        <div id="hero">
+        <div id="testimonial-page-hero">
             <h1>What Our Guests Are Saying</h1>
             <p>Read about the wonderful experiences our guests have had at Shangri-La Beach Resort.</p>
         </div>
-        <div id="testimonial-grid">
+        <div id="testimonial-page-grid">
             <article class="testimonial-1">
-                <p>"Our stay at Shangri La was absolutely perfect! The service was impeccable, the food was delicious, and the views were breathtaking. We especially loved relaxing by the infinity pool. We can't wait to return!"</p>
+                <p>"Our stay at Shangri La was absolutely <span id="bold">perfect</span>! The service was impeccable, the food was delicious, and the views were breathtaking. We especially loved relaxing by the infinity pool. <span id="bold">We can't wait to return!</span>"</p>
                 <p class="testimonial-name">Sarah M.</p>
             </article>
             <article class="testimonial-2">
-                <p>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was incredible. The resort offered so many activities, we never had a dull moment. Highly recommend the snorkeling!"</p>
+                <p>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was incredible. The resort <span id="bold">offered so many activities</span>, we never had a dull moment. Highly recommend the snorkeling!"</p>
                 <p class="testimonial-name">John B.</p>
             </article>
             <article class="testimonial-3">
-                <p>"We traveled with our two young children, and the Kids' Club was a lifesaver! The staff were fantastic, and our kids had a blast. This allowed us some much-needed relaxation time. The resort is very family-friendly."</p>
+                <p>"We traveled with our two young children, and the Kids' Club was a lifesaver! The staff were fantastic, and our kids had a blast. This allowed us some much-needed relaxation time. The resort is very <span id="bold">family-friendly</span>."</p>
                 <p class="testimonial-name">Emily K.</p>
             </article>
             <article class="testimonial-4">
-                <p>"The spa experience was divine. The therapists were skilled, and the atmosphere was so peaceful. It was the perfect way to unwind and de-stress. We left feeling completely rejuvenated."</p>
+                <p>"The <span id="bold">spa experience was divine</span>. The therapists were skilled, and the atmosphere was so peaceful. It was the perfect way to unwind and de-stress. We left feeling completely rejuvenated."</p>
                 <p class="testimonial-name">David L.</p>
             </article>
             <article class="testimonial-5">
-                <p>"From the moment we arrived, the staff made us feel welcome and well taken care of. The attention to detail was outstanding. Shangri La truly lives up to its name - a little slice of paradise!"</p>
+                <p>"From the moment we arrived, the <span id="bold">staff made us feel welcome and well taken care of</span>. The attention to detail was outstanding. Shangri La truly lives up to its name - <span id="bold">a little slice of paradise!</span>"</p>
                 <p class="testimonial-name">Jessica P.</p>
             </article>
         </div>
@@ -54,6 +57,6 @@
     <footer>
         <small>&copy; Shangri-La Resort</small>
     </footer>
-    <script src="weather.js"></script>
+    <script src="shangrila.js"></script>
 </body>
 </html>

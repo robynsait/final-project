@@ -6,10 +6,13 @@
     <title>Home | Shangri-La Resort</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header-container">
-        <img id="logo" src="images/logo.svg" alt="Shangri-La Logo">
+        <a href = "home.html"><img id="logo" src="images/logo.svg" alt="Shangri-La Logo"></a>
         <p id="weather"></p>
         <nav id="menu">
             <ul>
@@ -23,7 +26,7 @@
         </nav>
     </header>
     <main>
-        <div id="hero">
+        <div id="home-hero">
             <h1>Shangri-La Beach Resort - Your Dream Getaway</h1>
             <h2>Escape to Paradise</h2>
             <p>Indulge in luxury and breathtaking views at Shangri-La Beach Resort.</p>
@@ -61,15 +64,15 @@
                 </figure>
             </div>
         </div>
-        <div id="accommodations-container">
-            <h2 id="accommodations-title">Our Luxurious Accommodations</h2>
-            <div id="accommodations-gallery">
+        <div id="accommodations-home-container">
+            <h2 id="accommodations-home-title">Our Luxurious Accommodations</h2>
+            <div id="accommodations-home-gallery">
                 <figure>
                     <img src="images/hotel-room-1447201_1920.jpg">
                     <figcaption>
                         <h3>Ocean View Deluxe Room</h3>
                         <p>Enjoy stunning ocean views from your private balcony.</p>
-                        <button>View Details</button>
+                        <button onclick="document.location='accommodations.html'">View Details</button>
                     </figcaption>
                 </figure>
                 <figure>
@@ -77,7 +80,7 @@
                     <figcaption>
                         <h3>Beachfront Suite</h3>
                         <p>Step directly onto the sand from your spacious suite.</p>
-                        <button>View Details</button>
+                        <button onclick="document.location='accommodations.html'">View Details</button>
                     </figcaption>
                 </figure>
                 <figure>
@@ -85,21 +88,21 @@
                     <figcaption>
                         <h3>Garden View Family Room</h3>
                         <p>Perfect for families, with ample space and garden views.</p>
-                        <button>View Details</button>
+                        <button onclick="document.location='accommodations.html'">View Details</button>
                     </figcaption>
                 </figure>
             </div>
         </div>
         <div id="testimonials-container">
             <h2 id="testimonials-title">What Our Guests Are Saying</h2>
-            <p>"Our stay at Shangri La was absolutely perfect! The service was impeccable, and the views were breathtaking." - Sarah M.</p>
-            <p>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was incredible." - John B.</p>
+            <p id="home-testimonial-1">"Our stay at Shangri La was absolutely perfect! The service was impeccable, and the views were breathtaking." <br><span id="home-testimonial-name">- Sarah M.</span></p>
+            <p id="home-testimonial-2">"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was incredible." <br><span id="home-testimonial-name">- John B.</span></p>
             <button onclick="document.location='testimonials.html'">Read More Testimonials</button>
         </div>
     </main>
     <footer>
         <small>&copy; Shangri-La Resort</small>
     </footer>
-    <script src="weather.js"></script>
+    <script src="shangrila.js"></script>
 </body>
 </html>
