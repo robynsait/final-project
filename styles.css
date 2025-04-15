@@ -206,7 +206,7 @@ main figcaption {
     padding: 1%;
 }
 
-#home-testimonial-name {
+.home-testimonial-name {
     font-style: italic;
 }
 
@@ -293,7 +293,7 @@ footer {
 
 /* ACCOMMODATIONS PAGE STYLING -------------------- */
 
-#accommodations-page-gallery #premium-suite {
+#accommodations-page-gallery .premium-suite {
     background-color: rgb(91, 176, 148);
     color: #fff;
 }
@@ -411,7 +411,7 @@ footer {
     padding-left: 1rem;
 }
 
-#dining-container #cuisine {
+#dining-container .cuisine {
     background-color: rgba(255, 149, 73, 0.5);
     border: solid rgba(255, 149, 73, 0.5) 2px;
     border-radius: 50px;
@@ -420,7 +420,7 @@ footer {
     margin: 0 0 1rem 1rem;
 }
 
-#dining-container #ambiance {
+#dining-container .ambiance {
     background-color: rgba(126, 214, 255, 0.5);
     border: solid rgba(126, 214, 255, 0.5) 2px;
     border-radius: 50px;
@@ -429,7 +429,7 @@ footer {
     margin: 0 0 1rem 1rem;
 }
 
-#dining-container #dress {
+#dining-container .dress {
     background-color: rgba(157, 60, 208, 0.5);
     border: solid rgba(157, 60, 208, 0.5) 2px;
     border-radius: 50px;
@@ -438,7 +438,7 @@ footer {
     margin: 0 0 1rem 1rem;
 }
 
-#dining-container #reso-no {
+#dining-container .reso-no {
     background-color: rgba(77, 192, 41, 0.5);
     border: solid rgba(77, 192, 41, 0.5) 2px;
     border-radius: 50px;
@@ -447,7 +447,7 @@ footer {
     width:fit-content;
 }
 
-#dining-container #reso-yes {
+#dining-container .reso-yes {
     background-color: rgba(187, 192, 41, 0.5);
     border: solid rgba(187, 192, 41, 0.5) 2px;
     border-radius: 50px;
@@ -466,7 +466,7 @@ footer {
     padding: 2rem;
 }
 
-#bold {
+.bold {
     font-weight: bold;
 }
 
@@ -695,7 +695,7 @@ footer {
         padding-top: 0;
     }
 
-    #dining-container #ambiance, #dining-container #cuisine, #dining-container #dress, #dining-container #reso-no, #dining-container #reso-yes {
+    #dining-container .ambiance, #dining-container .cuisine, #dining-container .dress, #dining-container .reso-no, #dining-container .reso-yes {
         margin: 0 0 0.5rem 0;
         text-align: center;
         width: auto;
@@ -772,7 +772,7 @@ footer {
     }
 
     /* DINING PAGE PIECES */
-    #dining-container #ambiance, #dining-container #cuisine, #dining-container #dress, #dining-container #reso-no, #dining-container #reso-yes {
+    #dining-container .ambiance, #dining-container .cuisine, #dining-container .dress, #dining-container .reso-no, #dining-container .reso-yes {
         margin: 0 0 0.5rem 0;
         text-align: center;
         width: auto;
